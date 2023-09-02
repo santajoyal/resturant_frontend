@@ -1,4 +1,4 @@
 export const config = {
-  api: "http://localhost:3001",
+  api: "https://restaurant-backend-8k9w.onrender.com",
   storage_key: "zomato_app"
 };
