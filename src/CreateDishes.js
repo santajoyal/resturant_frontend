@@ -17,7 +17,7 @@ function CreateDishes() {
     onSubmit: async (values) => {
       try {
         await createDish(params.rId, values);
-        navigate(`portal/list-dishes/${params.rId}`);
+        navigate(`/portal/list-dishes/${params.rId}`);
       } catch (error) {
         alert("Something went wrong");
       }
