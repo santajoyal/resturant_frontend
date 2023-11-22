@@ -52,7 +52,7 @@ function Topbar() {
     </li>
 
     
-    <li className="nav-item dropdown no-arrow mx-1">
+    {/* <li className="nav-item dropdown no-arrow mx-1">
         <a className="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i className="fas fa-bell fa-fw"></i>
@@ -166,7 +166,7 @@ function Topbar() {
             </a>
             <a className="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
         </div>
-    </li>
+    </li> */}
 
     <div className="topbar-divider d-none d-sm-block"></div>
 
@@ -176,7 +176,7 @@ function Topbar() {
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
             <img className="img-profile rounded-circle"
-                src="img/undraw_profile.svg"/>
+                src="https://picsum.photos/200/200"/>
         </a>
 
         <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in"
